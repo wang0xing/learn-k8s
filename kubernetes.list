@@ -1,0 +1,3 @@
+#deb https://mirrors.aliyun.com/kubernetes/apt/ kubernetes-xenial main
+deb https://mirrors.cloud.tencent.com/kubernetes/apt/ kubernetes-xenial main
+#deb https://repo.huaweicloud.com/kubernetes/apt/ kubernetes-xenial main

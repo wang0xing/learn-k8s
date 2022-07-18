@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pvc-pod
+spec:
+  containers:
+    - name: myfrontend
+      image: 192.168.31.59:8000/library/my-nginx:v2
+      volumeMounts:
+      - mountPath: "/usr/share/nginx/html"
+        name: mypd
+  volumes:
+    - name: mypd
+      persistentVolumeClaim:
+        claimName: pvc-0001

@@ -1,0 +1,3 @@
+image:
+  repository: 192.168.31.59:8000/library/my-nginx
+  tag: 'v3'
